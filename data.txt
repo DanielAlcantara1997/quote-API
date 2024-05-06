@@ -1,0 +1,97 @@
+const injectQuote = async (req,res) => {
+
+    await RandomQuote.create([
+        {  
+            text:"The only people who never fail are those who never try.",
+            from:"Ilka Chase"
+         },
+         {  
+            text:"Failure is just another way to learn how to do something right.",
+            from:"Marian Wright Edelman"
+         },
+         {  
+            text:"I failed my way to success.",
+            from:"Thomas Edison"
+         },
+         {  
+            text:"Every failure brings with it the seed of an equivalent success.",
+            from:"Napoleon Hill"
+         },
+         {  
+            text:"Only those who dare to fail greatly can ever achieve greatly.",
+            from:"John F. Kennedy"
+         },
+         {  
+            text:"It is hard to fail, but it is worse never to have tried to succeed.",
+            from:"Theodore Roosevelt"
+         },
+         {  
+            text:"Imagination is more important than knowledge.",
+            from:"Albert Einstein"
+         },
+         {  
+            text:"Hold fast to dreams, for if dreams die, life is a broken winged bird that cannot fly.",
+            from:"Langston Hughes"
+         },
+         {  
+            text:"The future belongs to those who believe in the beauty of their dreams.",
+            from:"Eleanor Roosevelt"
+         },
+         {  
+            text:"Go confidently in the direction of your dreams. Live the life you have imagined.",
+            from:"Henry David Thoreau"
+         },
+         {  
+            text:"You cannot depend on your eyes when your imagination is out of focus.",
+            from:"Mark Twain"
+         },
+         {  
+            text:"Commitment leads to action. Action brings your dream closer.",
+            from:"Marcia Wieder"
+         },
+         {  
+            text:"I never think of the future",
+            from:"it comes soon enough.\""
+         },
+         {  
+            text:"Don't waste your life in doubts and fears: Spend yourself on the work before you, well assured that the right performance of this hour's duties will be the best preparation for the hours or ages that follow it.",
+            from:"Ralph Waldo Emerson"
+         },
+         {  
+            text:"Do not anticipate trouble or worry about what may never happen. Keep in the sunlight.",
+            from:"Benjamin Franklin"
+         },
+         {  
+            text:"Take time to deliberate; but when the time for action arrives, stop thinking and go in.",
+            from:"Andrew Jackson"
+         },
+         {  
+            text:"The mind that is anxious about future events is miserable.",
+            from:"Seneca"
+         },
+         {  
+            text:"Live in each season as it passes; breathe the air, drink the drink, taste the fruit, and resign yourself to the influences of each.",
+            from:"Henry David Thoreau"
+         },
+         {  
+            text:"The art of leadership is saying no, not yes. It is very easy to say yes.",
+            from:"Tony Blair"
+         },
+         {  
+            text:"A leader is a dealer in hope.",
+            from:"Napoleon Bonaparte"
+         },
+         {  
+            text:"While a good leader sustains momentum, a great leader increases it.",
+            from:"John C. Maxwell"
+         },
+         {  
+            text:"A general is just as good or just as bad as the troops under his command make him.",
+            from:"General Douglas MacArthur"
+         },
+         {  
+            text:"To do great things is difficult; but to command great things is more difficult.",
+            from:"Friedrich Nietzsche"
+         }
+    ])
+}
